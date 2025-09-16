@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad Jaber Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!-- ===== SIDEBAR ===== -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Ahmad Jaber.jfif" alt="Ahmad Jaber" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name">Ahmad Jaber</h1>
+          <p class="title">ML Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:jaa5660@gmail.com" class="contact-link">jaa5660@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+962798362612" class="contact-link">+962 798362612</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-06-04">4 June 2004</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Amman, Jordan</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ahmad-jaber-386451287/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/ahmad.jaber._?igsh=ODY0ZWRtZ25vbWYy&utm_source=qr" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="main-content">
+
+      <!-- ===== NAVBAR ===== -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Projects</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ===== ABOUT ===== -->
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About Me</h2></header>
+
+        <section class="about-text">
+          <p>
+            Data Science and Artificial Intelligence student at Al Hussein Technical University (HTU) 
+            with strong academic training and hands-on project experience in AI, machine learning, and data analysis. 
+            Skilled in designing and implementing AI solutions for healthcare, business, and technology challenges. 
+            Passionate about transforming data into actionable insights and developing scalable AI-driven solutions.
+          </p>
+        </section>
+
+        <!-- === NEW "WHAT I'M DOING" SECTION === -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/super-intelligence_17129426.png" alt="ML icon" width="60">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning & AI</h4>
+                <p class="service-item-text">
+                  Designing and training intelligent models to solve problems.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/market-analysis_17749638.png" alt="Data icon" width="60">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science & Analytics</h4>
+                <p class="service-item-text">
+                  Transforming raw datasets into meaningful insights through analysis and visualization.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-leadership-50.png" alt="Leadership icon" width="60">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technical Leadership</h4>
+                <p class="service-item-text">
+                  Leading cross-functional teams and mentoring students on AI projects and product development.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-ai-50.png" alt="Project icon" width="60">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Product Development</h4>
+                <p class="service-item-text">
+                  Turning innovative ideas into working prototypes and production-ready applications.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <!-- ===== RESUME ===== -->
+      <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
+
+        <!-- Education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">B.Sc. in Data Science & Artificial Intelligence – Al Hussein Technical University (HTU)</h4>
+              <span>2022 – Present</span>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Experience -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CTO & Head of Technology – Neuronote (Start-up)</h4>
+              <span>2025 – Present</span>
+              <p class="timeline-text">
+                • Lead the development of an AI-powered healthcare documentation assistant.<br>
+                • Designed system architecture and integrated NLP models into the backend.<br>
+                • Coordinated cross-functional team efforts for scalability and secure deployment.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Machine Learning & AI</h5><data value="90">90%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:90%;"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Python / Data Science</h5><data value="90">90%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:90%;"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Team Leadership & Project Management</h5><data value="85">85%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width:85%;"></div></div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- ===== PROJECTS ===== -->
+      <article class="portfolio" data-page="projects">
+        <header><h2 class="h2 article-title">Projects</h2></header>
+
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active">
+              <h3 class="project-title">AI Healthcare Documentation Assistant (Neuronote)</h3>
+              <p class="project-category">
+                Bilingual assistant that listens to doctor–patient conversations and auto-generates structured summaries.
+              </p>
+            </li>
+            <li class="project-item active">
+              <h3 class="project-title">Healthcare AI Projects (HTU)</h3>
+              <p class="project-category">
+                • Bioinformatics – Multi-Omics Biomarker Discovery<br>
+                • Deep Learning – Knee Osteoarthritis Classification<br>
+                • Business Process Support – Power BI + ARIMA forecasting
+              </p>
+            </li>
+            <li class="project-item active">
+              <h3 class="project-title">Big Data Analytics and Visualization</h3>
+              <p class="project-category">
+                Built a big data pipeline using PySpark, Hadoop, and ML models to predict delivery risk and product profit.
+              </p>
+            </li>
+            <li class="project-item active">
+              <h3 class="project-title">Modeling & Simulation – Quadrotor State Fusion</h3>
+              <p class="project-category">
+                Compared Neural ODE vs Kalman Filter for drone state estimation and control.
+              </p>
+            </li>
+            <li class="project-item active">
+              <h3 class="project-title">NASA Space Apps Challenge</h3>
+              <p class="project-category">
+                Served as Data Lead in “Nova Nomads,” simulating a tourism office in the solar system. Ranked among the Top 5 teams locally.
+              </p>
+            </li>
+            <li class="project-item active">
+              <h3 class="project-title">Simera AI Challenge</h3>
+              <p class="project-category">
+                Developed AI solutions to connect employees and companies. Achieved Top 5 placement.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- ===== CONTACT ===== -->
+      <article class="contact" data-page="contact">
+        <header><h2 class="h2 article-title">Contact</h2></header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Send Me a Message</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
